@@ -1,0 +1,116 @@
+.btn-delete {
+    height: 100%;
+    border-radius: 0;
+}
+
+@keyframes bs3SlideToEdit {
+    from {left: 0;}
+    to {left: -66px;}
+}
+
+.bs3ItemEditMode {
+    animation-name: bs3SlideToEdit;
+    animation-duration: .3s;
+    left: -66px;
+}
+
+@keyframes bs3SlideToUnedit {
+    from {left: -66px;}
+    to {left: 0;}
+}
+
+.bs3ItemUneditMode {
+    animation-name: bs3SlideToUnedit;
+    animation-duration: .3s;
+    left: 0px;
+}
+
+.bs3DeleteContainer {
+    height: 100%;
+    position: absolute;
+    right: -66px;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+@keyframes bs3DeleteSlideIn {
+    from {width: 0; right: 0;}
+    to {width: 66px; right: -66px;}
+}
+
+.bs3DeleteEditMode {
+    animation-name: bs3DeleteSlideIn;
+    animation-duration: .3s;
+    width: 66px;
+    right: -66px;
+}
+
+@keyframes bs3DeleteSlideOut {
+    from {width: 66px; right: -66px;}
+    to {width: 0; right: 0;}
+}
+
+.bs3DeleteUneditMode {
+    animation-name: bs3DeleteSlideOut;
+    animation-duration: .3s;
+    width: 0;
+    right: 0;
+}
+
+
+@keyframes bs4SlideToEdit {
+    from {left: 0;}
+    to {left: -80px;}
+}
+
+.bs4ItemEditMode {
+    animation-name: bs4SlideToEdit;
+    animation-duration: .3s;
+    left: -80px;
+}
+
+@keyframes bs4SlideToUnedit {
+    from {left: -80px;}
+    to {left: 0;}
+}
+
+.bs4ItemUneditMode {
+    animation-name: bs4SlideToUnedit;
+    animation-duration: .3s;
+    left: 0px;
+}
+
+.bs4DeleteContainer {
+    height: 100%;
+    position: absolute;
+    right: -80px;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+
+@keyframes bs4DeleteSlideIn {
+    from {width: 0; right: 0;}
+    to {width: 80px; right: -80px;}
+}
+
+.bs4DeleteEditMode {
+    animation-name: bs4DeleteSlideIn;
+    animation-duration: .3s;
+    width: 80px;
+    right: -80px;
+}
+
+@keyframes bs4DeleteSlideOut {
+    from {width: 80px; right: -80px;}
+    to {width: 0; right: 0;}
+}
+
+.bs4DeleteUneditMode {
+    animation-name: bs4DeleteSlideOut;
+    animation-duration: .3s;
+    width: 0;
+    right: 0;
+}
