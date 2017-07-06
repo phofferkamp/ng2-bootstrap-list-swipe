@@ -24,15 +24,6 @@ OR Bootstrap 4:
 $ npm install bootstrap@^4.0.0-alpha.6 --save
 ```
 
-## Angular CLI Config
-```json
-"styles": [
-  "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-  "../node_modules/ng2-bootstrap-list-swipe/styles.css",
-  "styles.css"
-],
-```
-
 ## Installation
 
 To install this library, run:
@@ -54,6 +45,15 @@ import { SwipeModule } from 'ng2-bootstrap-list-swipe';
   ...
 })
 export class AppModule { }
+```
+
+## Angular CLI Config
+```json
+"styles": [
+  "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "../node_modules/ng2-bootstrap-list-swipe/styles.css",
+  "styles.css"
+],
 ```
 
 ## Template
