@@ -1,6 +1,6 @@
 {
   "name": "ng2-bootstrap-list-swipe",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/phofferkamp/ng2-bootstrap-list-swipe"
@@ -10,7 +10,10 @@
     "email": "phofferkamp@gmail.com"
   },
   "keywords": [
-    "angular"
+    "angular",
+    "bootstrap",
+    "angular-cli",
+    "ng"
   ],
   "license": "MIT",
   "bugs": {

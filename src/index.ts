@@ -9,6 +9,7 @@ import { Bs4SwipeDirective } from './bs4-directive';
 import { Service } from './service';
 
 export * from './bs3-directive';
+export * from './bs4-directive';
 export * from './service';
 
 @NgModule({
